@@ -1,0 +1,36 @@
+.skeleton-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+}
+
+.skeleton-card {
+  background-color: #111315;
+  border-radius: 8px;
+  min-width: 14.25rem;
+  padding: 16px;
+  margin: 10px;
+}
+
+.skeleton-image {
+  background-color: #6F757C;
+  height: 10rem;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.skeleton-text {
+  background-color: #6F757C;
+  border-radius: 4px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.skeleton-title {
+  width: 60%;
+}
+
+.skeleton-description {
+  width: 90%;
+}

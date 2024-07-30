@@ -1,0 +1,58 @@
+.collection-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    padding: 5rem 0;
+    height: fit-content;
+    border-radius: 0.75rem;
+    align-items: center;
+    background-color: #1B1D1F;
+
+    .cards-container {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0;
+    }
+
+    .buttons-container {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .button-filled {
+        background-color: #6f757c;
+    }
+
+    .title-container {
+        position: relative;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .heading {
+        font-size: 2rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .body {
+        font-size: 1rem;
+        color: #6F757C;
+    }
+
+    .body-container {
+        width: 30rem;
+        text-align: center;
+    }
+
+    .signature {
+        position: absolute;
+        top: -60px;
+        right: -10px;
+        opacity: 0.8;
+        /* Ajusta la opacidad aquí */
+        z-index: -1;
+        /* Asegúrate de que el SVG esté detrás del texto */
+    }
+}

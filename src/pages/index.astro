@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Collection from "../components/Collection";
+---
+
+<Layout title="Simple Coffee Listing">
+  <main>
+    <Collection client:load />
+  </main>
+</Layout>
+
+<style>
+  main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10rem 5.5rem;
+    background-color: #111315;
+    background: url("../assets/bg-cafe.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+</style>
