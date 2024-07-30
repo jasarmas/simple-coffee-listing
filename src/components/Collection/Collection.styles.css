@@ -51,8 +51,6 @@
         top: -60px;
         right: -10px;
         opacity: 0.8;
-        /* Ajusta la opacidad aquí */
         z-index: -1;
-        /* Asegúrate de que el SVG esté detrás del texto */
     }
 }
