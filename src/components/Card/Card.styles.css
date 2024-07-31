@@ -69,9 +69,3 @@
     font-weight: 600;
     font-size: 0.75rem;
 }
-
-@media (max-width: 1024px) {
-    .cards-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
